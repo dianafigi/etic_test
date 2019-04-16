@@ -1,0 +1,549 @@
+/*----- Reset -----*/
+
+html{height: 100px;}
+img,video {max-width: 100%; display: block;}
+*{  
+    box-sizing: border-box;
+    margin: 0; 
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+main{
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+    }
+
+
+
+/*----- Header -----*/
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: block;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    z-index: 100;
+    
+}
+
+.inner_header{
+    width: 75%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.logo_container{
+    height: 100%;
+    float: left;
+    position: absolute;
+    top: 25%;
+}
+
+.logo_container img{
+    height: 53px;
+    width: 157px;
+}
+
+.navigation{
+    
+    height: 100%;
+    position: absolute;
+    top: 40%;
+    left: 78%;
+    display: flex;
+}
+
+.navigation li{
+
+    padding-right: 3.5vh;
+    font-family: "SF Pro Display";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.header_button input[type=submit] {
+    width: 89px;
+    height: 33px;
+    background-color:#E53167;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 98%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+
+/*----- BANNER -----*/
+
+
+.banner{
+
+    height: 90vh;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    
+
+}
+
+.first_image{
+
+    height: 683px;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+
+}
+
+.banner h2{
+    
+    top: 30%;
+    left: 12%;
+    position: absolute;
+    color: #000000;
+    font-family: "SF Pro Display";
+    font-size: 3em;
+    font-weight: 100;
+    }
+    
+.banner h3{
+        
+    top: 50%;
+    left: 12%;
+    position: absolute;
+    color: #000000;
+    font-family: "SF Pro Display";
+    font-size: 1em;
+    font-weight: 300;
+    }
+
+.left_arrow{
+    position: absolute;
+    top: 38%;
+    left: 1%;
+    z-index: 10;
+
+}
+
+.right_arrow{
+    position: absolute;
+    top: 38%;
+    right: 1%;
+
+
+}
+
+.banner_button input[type=submit] {
+    width: 89px;
+    height: 33px;
+    background-color:#E53167;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    top: 62%;
+    left: 15%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+
+/*----- CARDS -----*/
+
+.box_1{
+    padding: 110px 110px 110px 110px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.elipse_1{
+
+    width: 230px;
+    height: 214px;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    z-index: 0;
+}
+
+.cards{
+    height: 90vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    
+
+}
+
+.cards img{
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.cards h2{
+    position: absolute;
+    top: 60%;
+    left: 3%;
+    color: #000000;
+    font-family: "SF Pro Display";
+    font-size: 40px;
+    font-weight: 100;
+
+}
+
+.cards h3{
+
+    position: absolute;
+    top: 70%;
+    left: 3%;
+    color: #000000;
+    font-family: "SF Pro Display";
+    font-size: 17px;
+    font-weight: 300;
+
+}
+
+.cards p{
+
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    color: #e53167;
+    font-family: "SF Pro Display";
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+/*----- SCHOOLS CARD -----*/
+
+.schools_card{
+
+    position: relative;
+    width: 100%;
+    height: 559px;
+    box-shadow: 0 3px 20px rgba(70, 76, 123, 0.18);
+    border-radius: 15px;
+    border: 1px solid #707070;
+}
+
+
+
+/*----- STUDENTS CARD -----*/
+
+.students_card{
+    
+    position: relative;
+    width: 100%;
+    height: 559px;
+    box-shadow: 0 3px 20px rgba(70, 76, 123, 0.18);
+    border-radius: 15px;
+    border: 1px solid #707070;
+}
+
+/*----- COMPANIES CARD -----*/
+
+.companies_card{
+    
+    position: relative;
+    width: 100%;
+    height: 559px;
+    box-shadow: 0 3px 20px rgba(70, 76, 123, 0.18);
+    border-radius: 15px;
+    border: 1px solid #707070;
+}
+
+
+
+/*----- TEXT 1 -----*/
+
+.text_1{
+
+    height: 80vh;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+.text_1 img{
+
+    height: 386px;
+    width: 460px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+
+}
+
+.text_1 h2{
+    
+    top: 30%;
+    left: 12%;
+    position: absolute;
+    color: #000000;
+    font-family: "SF Pro Display";
+    font-size: 45px;
+    font-weight: 100;
+    }
+    
+.text_1 h3{
+        
+    top: 50%;
+    left: 12%;
+    position: absolute;
+    color: #000000;
+    font-family: "SF Pro Display";
+    font-size: 15px;
+    font-weight: 300;
+    }
+
+.text_1_button input[type=submit] {
+        width: 89px;
+        height: 33px;
+        background-color:#E53167;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        position: absolute;
+        top: 62%;
+        left: 15%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+      }
+.elipse_2{
+
+    width: 230px;
+    height: 214px;
+    position: relative;
+    
+
+}
+
+.elipse_2 img{
+
+    position: absolute;
+    right: -570%;
+    z-index: 0;
+
+}
+
+.elipse_3{
+
+    width: 230px;
+    height: 214px;
+    position: relative;
+    
+
+}
+
+.elipse_3 img{
+
+    position: absolute;
+    left: -50%;
+    z-index: 0;
+
+}
+
+/*----- MOCKUP -----*/
+
+.mockup{
+
+    height: 90vh;
+    width: 100%;
+    background-color:#ffffff;
+    position: relative;
+
+}
+
+.mockup img{
+
+    height: 981;
+    width: 1737;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.elipse_4{
+
+    width: 230px;
+    height: 214px;
+    position: relative;
+    
+
+}
+
+.elipse_4 img{
+
+    position: absolute;
+    right: -570%;
+    z-index: 0;
+
+}
+
+
+/*----- TEXT 2 -----*/
+
+.text_2{
+
+    height: 90vh;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+.text_2 img{
+
+    height: 256px;
+    width: 330px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+
+}
+
+.text_2 h2{
+    
+    top: 30%;
+    left: 12%;
+    position: absolute;
+    color: #000000;
+    font-family: "SF Pro Display";
+    font-size: 45px;
+    font-weight: 100;
+    }
+    
+.text_2 h3{
+        
+    top: 50%;
+    left: 12%;
+    position: absolute;
+    color: #000000;
+    font-family: "SF Pro Display";
+    font-size: 15px;
+    font-weight: 300;
+    }
+
+.text_2_button input[type=submit] {
+        width: 89px;
+        height: 33px;
+        background-color:#E53167;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        position: absolute;
+        top: 62%;
+        left: 15%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+      }
+    
+/*----- FOOTER -----*/
+
+.footer{
+    height: 10vh;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.menu_footer{
+    
+    height: 100%;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    display: flex;
+}
+
+.menu_footer li{
+
+    padding-right: 3.5vh;
+    font-family: "SF Pro Display";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer p{
+    position: absolute;
+    top: 70%;
+    left: 2%;
+    color: #000000;
+    font-family: "SF Pro Display";
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.social{
+    position: absolute;
+    top: 40%;
+    right: 2%;
+    display: flex;
+}
+
+.social img{
+    
+    width: 22px;
+    height: 22px;
+    
+}
+
+
+/*Media queries*/
+
+@media only screen and (max-width: 1200px) {
+    
+    .navigation{
+        left: 50%;   
+    }
+
+    .logo_container img{
+        height: 43px;
+        width: 107px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .navigation{
+        left: 40%;   
+    }
+    .cards{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+
+
+
+
+
+    
+
+
+      
